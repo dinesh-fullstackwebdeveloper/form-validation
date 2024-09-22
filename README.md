@@ -37,7 +37,7 @@ The design of the form is responsive and user-friendly, featuring input fields w
 
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/form-validation-project.git
+   git clone https://github.com/dinesh-fullstackwebdeveloper/form-validation.git
 2. Open the `index.html` file in a browser to run the project locally.
 
 ## 🤝 Contributing
