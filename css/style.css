@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    user-select: none;
+}
+form{
+    width: 47%;
+    padding: 20px;
+}
+table{
+    width: 100%;
+}
+legend{
+    margin-left: 20px;
+    color: white;
+    background-color: teal;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+}
+fieldset{
+    border-radius: 10px;
+    border: 2px solid teal;
+    background-color: antiquewhite;
+}
+label{
+    margin-left: 20px;
+    color: brown;
+    font-size: 14px;
+}
+input{
+    margin: 4px;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: none;
+    border: solid 2px teal;
+    background-color:rgb(23, 176, 176);
+    border-radius: 5px;
+    caret-color: rgb(249, 249, 249);
+}
+input:focus{
+    outline: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+input::placeholder{
+    color:white;
+    padding-left: 5px;
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+input[type="submit"]{
+    color: white;
+    background-color: teal;
+    border: none;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: all 0.1s ease-in-out;
+}
+input[type="submit"]:hover{
+    background-color: rgb(5, 143, 143);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+p{
+    padding-bottom: 10px;
+}
